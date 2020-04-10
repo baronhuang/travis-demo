@@ -1,0 +1,27 @@
+{
+  "name": "travis-demo",
+  "version": "1.0.0",
+  "description": "travis的配置demo，自动化打包、部署到github_pages",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baronhuang/travis-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baronhuang/travis-demo/issues"
+  },
+  "homepage": "https://github.com/baronhuang/travis-demo#readme",
+  "devDependencies": {
+    "vuepress": "^1.4.0",
+    "webstorm-disable-index": "^1.2.0"
+  }
+}
