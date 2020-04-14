@@ -6,6 +6,7 @@ node_js:
 install:
   - yarn install # npm ci
 script:
+  - yarn test
   - yarn build # npm run docs:build
 
 cache: yarn

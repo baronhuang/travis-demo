@@ -8,7 +8,8 @@
   },
   "scripts": {
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "build": "vuepress build docs",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -21,7 +22,14 @@
   },
   "homepage": "https://github.com/baronhuang/travis-demo#readme",
   "devDependencies": {
+    "@vue/test-utils": "^1.0.0-beta.33",
+    "babel-jest": "^25.3.0",
+    "jest": "^25.3.0",
+    "vue-jest": "^3.0.5",
     "vuepress": "^1.4.0",
     "webstorm-disable-index": "^1.2.0"
+  },
+  "dependencies": {
+    "babel-preset-env": "^1.7.0"
   }
 }
